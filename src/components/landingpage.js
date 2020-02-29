@@ -13,7 +13,6 @@ class Landing extends Component {
               alt="avatar"
               className="avatar-img"
               />
-
             <div className="banner-text">
               <h1>Luciano Remes</h1>
               <h1>Student | Programmer | ML Enthusiast</h1> 
@@ -35,7 +34,7 @@ class Landing extends Component {
 
           {/* Twitter */}
           <a href="https://twitter.com/cybergenik" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+            <i className="fa fa-twitter-square" aria-hidden="true" />
           </a>
         </div>
             </div>
