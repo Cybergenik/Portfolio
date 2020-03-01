@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { Grid, Cell, List } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent, Icon} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from './skills';
 import dude1 from '../img/dude1.png';
 
 class Resume extends Component {
@@ -90,23 +89,86 @@ class Resume extends Component {
               />
               <hr style={{borderTop: '3px solid #833fb2'}} />
               <h2>Skills</h2>
-                <Grid>
-                  <List>
-                    <Skills
-                      skill="javascript"
-                      />
-                      <Skills
-                      skill="HTML/CSS"
-                      />
-                      <Skills
-                      skill="NodeJS"
-                      />
-                      <Skills
-                      skill="React"
-                    />
+                  <List horizontal style={{display: 'flex', color: 'white', flexDirection: 'row'}}>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        <Icon name='star'></Icon> Python
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        <Icon name='star'></Icon> JavaScript
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        <Icon name='star'></Icon> HTML/CSS
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        <Icon name='star'></Icon> Linux
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        <Icon name='star'></Icon> Java
+                      </ListItemContent>
+                    </ListItem>
                   </List>
-                </Grid>
-
+                    <hr />
+                  <List horizontal style={{display: 'flex', color: 'white', flexDirection: 'row'}}>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        React
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        Bash
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        Docker
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        Git
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        SaltStack
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        AWS
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        Kubernetes
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        GitLab
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        Vim
+                      </ListItemContent>
+                    </ListItem>
+                    <ListItem>
+                      <ListItemContent style={{color: 'white'}}>
+                        VSCode
+                      </ListItemContent>
+                    </ListItem>
+                  </List>
           </Cell>
         </Grid>
       </div>

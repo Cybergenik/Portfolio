@@ -25,7 +25,7 @@ class Projects extends Component {
               Hosted on AWS Amplify, CI pipeline integrated with Github repo.  
             </CardText>
             <CardActions border>
-            <a href="https://github.com/Cybergenik/Portfolio" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://github.com/Cybergenik/Portfolio.git" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
         </div>
@@ -33,28 +33,48 @@ class Projects extends Component {
     } else if(this.state.activeTab === 1) {
       return (
         <div className="projects-grid">
-          {/* JS 1 */}
+          {/* JS 1 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >AJAX search Database</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              AJAX calling JSON object generated from backend PHP to search database and populating results live in table
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass3" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2470.herokuapp.com/inclass3/FamilyAndFriend.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
-          {/* JS 1 */}
+          {/* JS 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Carousel</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              JQuery library to implement Carousel of my favorite hobbies
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass4" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2470.herokuapp.com/inclass4/Carousel.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+          {/* JS 3 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Full JQuery Site 0</CardTitle>
+            <CardText>
+              JQuery libraries for reactive event driven site, heavy DOM manipulation
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass5" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2470.herokuapp.com/inclass5/JQueryIntroduction.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+          {/* JS 4 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Full JQuery Site 1</CardTitle>
+            <CardText>
+              Full JQuery site with Login functionalities, Heavy DOM manipulation, and user auth.(under production)
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass6" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2470.herokuapp.com/inclass6/AnimateExclean.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
         </div>
@@ -64,27 +84,32 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Python 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >Tetris Game</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Made with Python3 Arcade, Random, and PIL Matrix and Vector manipulation
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/Tetris-Game" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
 
-          {/* Python 2 */}
+          {/* Python 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >Advent of Code 2019</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Online Competition to solve increasingly harder code problems, algorithm implementation, memory limitations.(currently in the works)
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/Advent-of-Code-2019" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            </CardActions>
+          </Card>
+          {/* Python 3 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >Crypto Currency Bot</CardTitle>
+            <CardText>
+              This has been my main project recently, Using AlphaVantage API to get live crypto prices, then using TF Keras ML models to attempt to predict price patterns.(currently in private repo)
+            </CardText>
+            <CardActions border>
             </CardActions>
           </Card>
         </div>
@@ -92,29 +117,34 @@ class Projects extends Component {
     } else if(this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
-          {/* Python 1 */}
+          {/* Java 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >ATM-Algorithm</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Java Menu system, Algorithm implementation, simulates basic functionality of an ATM, Object-Oriented
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/ATM-Program" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
-
-          {/* Python 2 */}
+          {/* Java 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >Friends List App</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Java, JDBC, MySQL, simulates basic functionality of a Friends List app
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/FriendsList" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            </CardActions>
+          </Card>
+          {/* Java 3 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >Guessing Game</CardTitle>
+            <CardText>
+              Simple Guessing Game, Java, Javax Swing
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/Guess_Game" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
         </div>
@@ -122,29 +152,27 @@ class Projects extends Component {
     } else if(this.state.activeTab === 4) {
       return (
         <div className="projects-grid">
-          {/* Python 1 */}
+          {/* PHP 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Form Validation and Submission</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              PHP generated form, and form validation for unfilled fields, GET & POST methods
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/music-database" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/music-database/products.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
 
-          {/* Python 2 */}
+          {/* PHP 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >React Project #1</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Table Generation based on DB</CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+              Simple PHP application that generates a table
             </CardText>
             <CardActions border>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://www.linkedin.com/in/luciano-remes-ab6630175/" rel="noopener noreferrer" target="_blank"><Button colored>CodePen</Button></a>
-            <a href="http://cybergenik.com" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/music-database" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/music-database/music.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
         </div>
@@ -163,16 +191,13 @@ class Projects extends Component {
           <Tab>Python</Tab>
           <Tab>Java</Tab>
           <Tab>PHP</Tab>
-        </Tabs>
+        </Tabs> 
 
-
-          <Grid>
+          <Grid className="projects-bg" style={{minWidth: '450', margin: 'auto', height: '850px'}}>
             <Cell col={12}>
               <div className="content">{this.toggleCategories()}</div>
             </Cell>
           </Grid>
-
-
       </div>
     )
   }

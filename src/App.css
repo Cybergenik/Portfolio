@@ -12,9 +12,11 @@
   height: 100%;
 }
 
+.projects-bg{
+  background-image: url('img/bg.gif');
+}
 .projects-grid {
   display: flex;
-  background: #27221F;
 }
 
 /* Resume Page css */
