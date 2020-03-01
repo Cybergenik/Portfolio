@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
-
+import dude1 from '../img/dude1.png';
 
 class Resume extends Component {
   render() {
@@ -13,16 +13,23 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src={dude1}
                 alt="avatar"
                 style={{height: '200px'}}
                  />
             </div>
 
-            <h2 style={{paddingTop: '2em'}}>Luciano Remes</h2>
+            <h2 style={{paddingTop: '5px'}}>Luciano Remes</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>Luciano is a life long Programmer, he booted Ubuntu at 14,
+              taught himself Python when he was 15 and has been creating apps and
+              participating in the open source community since then. He loves to take part in
+              coding events like Topcoder, LeetCode, and AdventOfCode. He wants to
+              use big data, machine learning, and AI to make tools and applications
+              that will improve our quality of life and address some of the biggest
+              issues affecting our society today like climate change and poverty.
+            </p>
             <h4 style={{color: 'grey'}}>Contact</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
@@ -35,57 +42,70 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-
-
-            <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-               />
-
-               <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                  />
+              <Education
+              startYear={2020}
+              endYear={2022}
+              schoolName="University of Utah - candidate Bachelors of Science in Computer Science"
+              schoolDescription=" Starting as a Junior Fall 2020"
+              />
+              <Education
+                startYear={2018}
+                endYear={2020}
+                schoolName="Salt Lake Community College - Associates of Science in Computer Science"
+                schoolDescription="Emphasis: Web Development & Linux Systems Engineering GPA 3.7"
+                schoolDescription1="Open Source club: coding and ethical hacking"
+                schoolDescription2="National Society of Leadership and Success - Member" 
+                schoolDescription3="Phi Theta Kappa - Honor Society Member" 
+              />
                 <hr style={{borderTop: '3px solid #833fb2'}} />
 
               <h2>Experience</h2>
 
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
-
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
+                startDate="Nov. 2019"
+                endDate="current"
+                jobName="IT Operations Analyst"
+                jobDescription="Developed, QA tested, and deployed Production Printing Software built in vanilla Java using Maven to build"
+                jobDescription1="Optimized container-based React web apps in Docker"
+                jobDescription2="Automated CI/CD Pipeline using SaltStack, Bash, and Python Scripting" 
+                jobDescription3="Implemented reactive Salt procedures to automate ticket resolution using reactive failback software on CentOS Production server"              
+              />
+              <Experience
+                startDate="May 2019"
+                endDate="Nov. 2019"
+                jobName="IT Specialist"
+                jobDescription="G Suit administration and managed corporate domain policies"
+                jobDescription1="Troubleshooting issues with ticketing system"
+                jobDescription2="Solved Printing issues (software side), Docker container issues" 
+                jobDescription3="Worked closely with SaltStack to automate deployment and configuration management" 
+              />
+              <Experience
+                startDate="Sept. 2018"
+                endDate="May 2019"
+                jobName="Technical Analyst/Support"
+                jobDescription="Beta testing, Quality Assurance, and wiki Documentation"
+                jobDescription1="Worked closely with Docker environments to troubleshoot issues"
+                jobDescription2="Worked in a Linux environment to troubleshoot server issues" 
+                jobDescription3=" Built Test cases and scripts to test software" 
+              />
               <hr style={{borderTop: '3px solid #833fb2'}} />
               <h2>Skills</h2>
-              <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
-                skill="HTML/CSS"
-                progress={80}
-                />
-                <Skills
-                skill="NodeJS"
-                progress={50}
-                />
-                <Skills
-                skill="React"
-                progress={25}
-                />
-
+                <Grid>
+                  <List>
+                    <Skills
+                      skill="javascript"
+                      />
+                      <Skills
+                      skill="HTML/CSS"
+                      />
+                      <Skills
+                      skill="NodeJS"
+                      />
+                      <Skills
+                      skill="React"
+                    />
+                  </List>
+                </Grid>
 
           </Cell>
         </Grid>
