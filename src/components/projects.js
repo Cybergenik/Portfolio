@@ -156,7 +156,7 @@ class Projects extends Component {
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Form Validation and Submission</CardTitle>
             <CardText>
-              PHP generated form, and form validation for unfilled fields, GET & POST methods
+              PHP generated form, form validation for unfilled fields, GET & POST methods
             </CardText>
             <CardActions border>
             <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/music-database" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>

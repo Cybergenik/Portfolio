@@ -15,7 +15,7 @@ class Contact extends Component {
               alt="avatar"
               style={{height: '250px'}}
                />
-             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>I'm available on most platforms, but I
+             <p style={{ width: '75%', margin: 'auto', paddingTop: '1em', fontSize: '20px'}}>I'm available on most platforms, but I
               respond best to email. Feel free to reach out if you have a potential job offer or business inquiry.</p> 
 
           </Cell>

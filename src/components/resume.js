@@ -21,13 +21,11 @@ class Resume extends Component {
             <h2 style={{paddingTop: '5px'}}>Luciano Remes</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Luciano is a life long Programmer, he booted Ubuntu at 14,
-              taught himself Python when he was 15 and has been creating apps and
-              participating in the open source community since then. He loves to take part in
-              coding events like Topcoder, LeetCode, and AdventOfCode. He wants to
-              use big data, machine learning, and AI to make tools and applications
-              that will improve our quality of life and address some of the biggest
-              issues affecting our society today like climate change and poverty.
+            <p>Luciano is currently working in IT, however his passion is
+              truely in Software Development. He is dedicated to show that 
+              he is a quick learner and proactive about new technologies.
+              His hobbies include programming and gaming, he loves to learn 
+              new technology and implement that learning into projects.
             </p>
             <h4 style={{color: 'grey'}}>Contact</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
