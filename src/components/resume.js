@@ -37,56 +37,10 @@ class Resume extends Component {
             <p>cybergenik@gmail.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
+
           <Cell className="resume-right-col" col={8}>
-            <h2>Education</h2>
-              <Education
-              startYear={2020}
-              endYear={2022}
-              schoolName="University of Utah - candidate Bachelors of Science in Computer Science"
-              schoolDescription=" Starting as a Junior Fall 2020"
-              />
-              <Education
-                startYear={2018}
-                endYear={2020}
-                schoolName="Salt Lake Community College - Associates of Science in Computer Science"
-                schoolDescription="Emphasis: Web Development & Linux Systems Engineering                   GPA 3.7"
-                schoolDescription1="Open Source club: coding and ethical hacking | Dean's List "
-                schoolDescription2="National Society of Leadership and Success - Member" 
-                schoolDescription3="Phi Theta Kappa - Honor Society Member" 
-              />
-                <hr style={{borderTop: '3px solid #833fb2'}} />
 
-              <h2>Experience</h2>
-
-              <Experience
-                startDate="Nov. 2019"
-                endDate="current"
-                jobName="IT Operations Analyst"
-                jobDescription="Developed, QA tested, and deployed Production Printing Software built in vanilla Java using Maven to build"
-                jobDescription1="Optimized container-based React web apps in Docker"
-                jobDescription2="Automated CI/CD Pipeline using SaltStack, Bash, and Python Scripting" 
-                jobDescription3="Implemented reactive Salt procedures to automate ticket resolution using reactive failback software on CentOS Production server"              
-              />
-              <Experience
-                startDate="May 2019"
-                endDate="Nov. 2019"
-                jobName="IT Specialist"
-                jobDescription="G Suit administration and managed corporate domain policies"
-                jobDescription1="Troubleshooting issues with ticketing system"
-                jobDescription2="Solved Printing issues (software side), Docker container issues" 
-                jobDescription3="Worked closely with SaltStack to automate deployment and configuration management" 
-              />
-              <Experience
-                startDate="Sept. 2018"
-                endDate="May 2019"
-                jobName="Technical Analyst/Support"
-                jobDescription="Beta testing, Quality Assurance, and wiki Documentation"
-                jobDescription1="Worked closely with Docker environments to troubleshoot issues"
-                jobDescription2="Worked in a Linux environment to troubleshoot server issues" 
-                jobDescription3=" Built Test cases and scripts to test software" 
-              />
-              <hr style={{borderTop: '3px solid #833fb2'}} />
-              <h2>Skills</h2>
+          <h2>Skills</h2>
                   <List horizontal style={{display: 'flex', color: 'white', flexDirection: 'row'}}>
                     <ListItem>
                       <ListItemContent style={{color: 'white'}}>
@@ -167,6 +121,64 @@ class Resume extends Component {
                       </ListItemContent>
                     </ListItem>
                   </List>
+                <hr style={{borderTop: '3px solid #833fb2'}} />
+
+            <h2>Experience</h2>
+
+              <Experience
+                startDate="March 2020"
+                endDate="current"
+                jobName="IT & Data Science Intern"
+                jobDescription="● Developed platform agnostic applications on .Net framework with Xamarin"
+                jobDescription1="● Built Data Modeling algorithm for effective patient care with Python"
+                jobDescription2="● IT Project management and implementation for $500,000 budget"              
+              />
+
+              <Experience
+                startDate="Nov. 2019"
+                endDate="March 2020"
+                jobName="IT Operations Analyst"
+                jobDescription="● Developed, QA tested, and deployed Production Printing Software built in vanilla Java, running as a service. Reduced printing related tickets by 31%"
+                jobDescription1="● Automated CI/CD Pipeline using SaltStack, Bash, and Python scripting"
+                jobDescription2="● Implemented reactive Salt procedures to automate ticket resolution using reactive failback software on CentOS Production server"              
+              />
+              <Experience
+                startDate="May 2019"
+                endDate="Nov. 2019"
+                jobName="IT Specialist"
+                jobDescription="● Solved Printing issues (software side), Docker container issues, resulting in a 23% ticket drop"
+                jobDescription1="● Worked closely with SaltStack to automate deployment and configuration management"
+                jobDescription2="● G Suit administration and managed corporate domain policies" 
+              />
+              {/* <Experience
+                startDate="Sept. 2018"
+                endDate="May 2019"
+                jobName="Technical Analyst/Support"
+                jobDescription="Beta testing, Quality Assurance, and wiki Documentation"
+                jobDescription1="Worked closely with Docker environments to troubleshoot issues"
+                jobDescription2="Worked in a Linux environment to troubleshoot server issues" 
+                jobDescription3=" Built Test cases and scripts to test software" 
+              /> */}
+            <hr style={{borderTop: '3px solid #833fb2'}} />
+            
+            <h2>Education</h2>
+              <Education
+              startYear={2020}
+              endYear={2022}
+              schoolName="University of Utah - candidate Bachelors of Science in Computer Science"
+              schoolDescription="● Starting as a Junior Fall 2020"
+              schoolDescription1="● Lassonde 400 Entrepreneurship Recipient"
+              />
+              <Education
+                startYear={2018}
+                endYear={2020}
+                schoolName="Salt Lake Community College - Associates of Science in Computer Science"
+                schoolDescription="● Emphasis: Web Development & Linux Systems Engineering"
+                schoolDescription1="● Open Source club: coding and ethical hacking | Dean's List: 3.76 GPA "
+                schoolDescription2="● National Society of Leadership and Success - Member" 
+                schoolDescription3="● Phi Theta Kappa - Honor Society Member" 
+              />
+            
           </Cell>
         </Grid>
       </div>
