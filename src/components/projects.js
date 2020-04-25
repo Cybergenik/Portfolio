@@ -154,25 +154,37 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* PHP 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Form Validation and Submission</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >PHP E-Commerce Catalog</CardTitle>
             <CardText>
-              PHP generated form, form validation for unfilled fields, GET & POST methods
+              Capstone Project: MySQL, Sessions, Cookies, Password Hashing (and salting)
             </CardText>
             <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/music-database" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2440.herokuapp.com/music-database/products.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/catalog" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/catalog/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
 
-          {/* PHP 2 ------------------------------------------------------------------------*/}
+          {/* PHP 2 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Table Generation based on DB</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Web Survey</CardTitle>
             <CardText>
-              Simple PHP application that generates a table
+              Web Survey for favorite game genre: MySQL, CanvasJS, forms
             </CardText>
             <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/music-database" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2440.herokuapp.com/music-database/music.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="http://lucianoremes2440.herokuapp.com/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+
+          {/* PHP 3 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >PHP Form Validation</CardTitle>
+            <CardText>
+              Used RegEx to validate form
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/validation" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/validation/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
         </div>
