@@ -95,9 +95,9 @@ class Projects extends Component {
 
           {/* Python 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >Advent of Code 2019</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >KronoPI</CardTitle>
             <CardText>
-              Online Competition to solve increasingly harder code problems, algorithm implementation, memory limitations.(currently in the works)
+              Python package that generates 4 random numbers from PI based on users current time. PI Chudnovsky algorithm derivation, Object Oriented. 
             </CardText>
             <CardActions border>
             <a href="https://github.com/Cybergenik/Advent-of-Code-2019" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
