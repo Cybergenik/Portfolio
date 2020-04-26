@@ -100,7 +100,7 @@ class Projects extends Component {
               Python package that generates 4 random numbers from PI based on users current time. PI Chudnovsky algorithm derivation, Object Oriented. 
             </CardText>
             <CardActions border>
-            <a href="https://github.com/Cybergenik/Advent-of-Code-2019" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://github.com/Cybergenik/KronoPI" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
           {/* Python 3 ------------------------------------------------------------------------*/}
