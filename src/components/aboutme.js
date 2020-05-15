@@ -16,20 +16,14 @@ class About extends Component {
 
             <div className="about-me">
               <h1>Luciano Remes</h1>
-              <p>Luciano moved from California to Salt Lake City, Utah seeking a Bachelors in Computer
-              Science from the University of Utah, however due to the out-of-state costs,
-              this would prove to be challenging. He decided to attend SLCC to complete
-              his generals while getting residency, however he found a community of 
-              programmers and fellow Open Source enthusiasts and decided to stay to finish
-              his Associates. He's finishing his Associates in May 2020 and has been accepted
-              once more into the University of Utah to study Computer Science.
-              As a life long Programmer, he booted Ubuntu at 14, taught himself Python 
-              when he was 15 and has been creating apps and participating in the Open 
-              Source community since then. He loves to take part in coding events like 
-              Topcoder, LeetCode, and AdventOfCode. He wants to use Big Data, Machine 
-              Learning, and AI to make tools and applications that will improve our 
-              quality of life while addressing some of the biggest issues affecting our 
-              society today like climate change.
+              <p>Luciano was born and raised in Burbank, California. His father was an 
+              Engineer for American Airlines and showed him from a young age how to take 
+              things apart and learn about them. This taught him an invaluable 
+              lesson: <i>how to learn</i>. As a life long learner, he booted Ubuntu at 14, 
+              taught himself Python when he was 15 and has been creating apps and participating 
+              in the Open Source community since then. He loves to take part in coding events 
+              like Topcoder, LeetCode, and AdventOfCode. He wants to build large scale web 
+              applications and use Python & Machine Learning to create smart applications. 
               </p>
             </div>
           </Cell>
