@@ -57,13 +57,13 @@ class Projects extends Component {
           </Card>
           {/* JS 3 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Full JQuery Site 0</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Corona Information Site</CardTitle>
             <CardText>
-              JQuery libraries for reactive event driven site, heavy DOM manipulation
+              JQuery to generate data, CDC corona virus API to generate data on demand. Bootstrap for styling.
             </CardText>
             <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass5" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2470.herokuapp.com/inclass5/JQueryIntroduction.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            <a href="https://github.com/Cybergenik/cybergenik/tree/master/corona" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://cybers-shop.herokuapp.com/corona/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
           {/* JS 4 ------------------------------------------------------------------------*/}
