@@ -21,11 +21,11 @@ class Resume extends Component {
             <h2 style={{paddingTop: '5px'}}>Luciano Remes</h2>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Luciano is currently working in IT, however his passion is
-              truely in Software Development. He is dedicated to show that 
-              he is a quick learner and proactive about new technologies.
-              His hobbies include programming and gaming, he loves to learn 
-              new technology and implement that learning into projects.
+            <p>Luciano is dedicated to show that he is a quick learner 
+              and proactive about new technologies. He enjoyes working
+              with new web technologies like React an GraphQL, and loves
+              working with data in Python. But overall he loves to learn
+              new better ways of doing things.
             </p>
             <h4 style={{color: 'grey'}}>Contact</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
