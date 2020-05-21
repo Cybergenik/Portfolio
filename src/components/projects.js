@@ -46,17 +46,6 @@ class Projects extends Component {
           </Card>
           {/* JS 2 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Carousel</CardTitle>
-            <CardText>
-              JQuery library to implement Carousel of my favorite hobbies
-            </CardText>
-            <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2470/tree/master/inclass4" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2470.herokuapp.com/inclass4/Carousel.php" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
-            </CardActions>
-          </Card>
-          {/* JS 3 ------------------------------------------------------------------------*/}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Corona Information Site</CardTitle>
             <CardText>
               JQuery to generate data, CDC corona virus API to generate data on demand. Bootstrap for styling.
@@ -66,7 +55,7 @@ class Projects extends Component {
             <a href="https://cybers-shop.herokuapp.com/corona/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
             </CardActions>
           </Card>
-          {/* JS 4 ------------------------------------------------------------------------*/}
+          {/* JS 3 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url('+js+') center / cover'}} >Full JQuery Site 1</CardTitle>
             <CardText>
@@ -117,6 +106,44 @@ class Projects extends Component {
     } else if(this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
+          {/* PHP 1 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Web Survey</CardTitle>
+            <CardText>
+              Web Survey for favorite game genre: MySQL, CanvasJS, forms
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="http://lucianoremes2440.herokuapp.com/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+          {/* PHP 2 */}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >PHP E-Commerce Catalog</CardTitle>
+            <CardText>
+              Capstone Project: MySQL, Sessions, Cookies, Password Hashing (and salting). High Availability BurnDB storing product information.
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/catalog" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/catalog/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+          {/* PHP 3 ------------------------------------------------------------------------*/}
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Simple Form Validation</CardTitle>
+            <CardText>
+              RegEx to validate form
+            </CardText>
+            <CardActions border>
+            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/validation" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
+            <a href="https://lucianoremes2440.herokuapp.com/validation/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
+            </CardActions>
+          </Card>
+        </div>
+      )
+    } else if(this.state.activeTab === 4) {
+      return (
+        <div className="projects-grid">
           {/* Java 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: '#fff', height: '176px', background: 'url('+java+') center / cover'}} >ATM-Algorithm</CardTitle>
@@ -149,46 +176,6 @@ class Projects extends Component {
           </Card>
         </div>
       )
-    } else if(this.state.activeTab === 4) {
-      return (
-        <div className="projects-grid">
-          {/* PHP 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >PHP E-Commerce Catalog</CardTitle>
-            <CardText>
-              Capstone Project: MySQL, Sessions, Cookies, Password Hashing (and salting)
-            </CardText>
-            <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/catalog" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2440.herokuapp.com/catalog/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
-            </CardActions>
-          </Card>
-
-          {/* PHP 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >Web Survey</CardTitle>
-            <CardText>
-              Web Survey for favorite game genre: MySQL, CanvasJS, forms
-            </CardText>
-            <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="http://lucianoremes2440.herokuapp.com/web-poll" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
-            </CardActions>
-          </Card>
-
-          {/* PHP 3 ------------------------------------------------------------------------*/}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+php+') center / cover'}} >PHP Form Validation</CardTitle>
-            <CardText>
-              Used RegEx to validate form
-            </CardText>
-            <CardActions border>
-            <a href="https://github.com/Cybergenik/CS2440/tree/master/htdocs/validation" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
-            <a href="https://lucianoremes2440.herokuapp.com/validation/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
-            </CardActions>
-          </Card>
-        </div>
-      )
     }
   }
 
@@ -199,9 +186,9 @@ class Projects extends Component {
           <Tab>React</Tab>
           <Tab>JavaScript</Tab>
           <Tab>Python</Tab>
-          <Tab>Java</Tab>
           <Tab>PHP</Tab>
-        </Tabs> 
+          <Tab>Java</Tab>
+        </Tabs>
 
           <Grid className="projects-bg" style={{minWidth: '450', margin: 'auto', height: '850px'}}>
             <Cell col={12}>
