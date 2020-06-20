@@ -94,11 +94,12 @@ class Projects extends Component {
           </Card>
           {/* Python 3 ------------------------------------------------------------------------*/}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >Crypto Currency Bot</CardTitle>
+            <CardTitle style={{color: '#fff', height: '176px', background: 'url('+python+') center / cover'}} >RuneMaster</CardTitle>
             <CardText>
-              This has been my main project recently, Using AlphaVantage API to get live crypto prices, then using TF Keras ML models to attempt to predict price patterns.(currently in private repo)
+              This has been my main project recently, leveraging multiple APIs and modules to create a responsive discord bot that gives stats and champion information to the user.
             </CardText>
             <CardActions border>
+            <a href="https://github.com/Cybergenik/RuneMaster" rel="noopener noreferrer" target="_blank"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
         </div>

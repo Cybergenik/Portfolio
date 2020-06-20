@@ -174,7 +174,7 @@ class Resume extends Component {
                 endYear={2020}
                 schoolName="Salt Lake Community College - Associates of Science in Computer Science"
                 schoolDescription="● Emphasis: Web Development & Linux Systems Engineering"
-                schoolDescription1="● Open Source club: coding and ethical hacking | Dean's List: 3.76 GPA "
+                schoolDescription1="● Open Source club: coding and ethical hacking | Presidents List: 4.00 GPA "
                 schoolDescription2="● National Society of Leadership and Success - Member" 
                 schoolDescription3="● Phi Theta Kappa - Honor Society Member" 
               />
