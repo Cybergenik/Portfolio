@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { Link } from 'react-router-dom'
 
-class Footer extends Component{
+class Foot extends Component{
     render() {
       return (
         <div>
@@ -54,4 +54,4 @@ class Footer extends Component{
         );
     }
 }
-export default Footer
+export default Foot
