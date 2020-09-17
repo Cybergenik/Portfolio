@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import dude2 from '../img/dude2.png';
+import dude2 from '../img/silly_me.jpg';
 
 class Landing extends Component {
   render() {
     return(
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
+        <Grid className="landing-grid" style={{height: '120%'}}>
           <Cell col={12}>
             <img
               src={dude2}
               alt="avatar"
               className="avatar-img"
+              style={{borderRadius: '5px'}}
               />
             <div className="banner-text">
               <h1>Luciano Remes</h1>
               <h1>Student | Programmer | ML Enthusiast</h1> 
             <hr/>
 
-          <p>HTML/CSS | JavaScript | React | Python | Java | SaltStack | Docker</p>
+          <p>GO | Python | Java | C | C++ | Docker | Linux | Bash</p>
 
         <div className="social-links">
 

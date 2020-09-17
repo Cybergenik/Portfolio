@@ -3,6 +3,7 @@ import { Grid, Cell, List, ListItem, ListItemContent, Icon} from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import dude1 from '../img/dude1.png';
+import resume from '../img/resume.pdf';
 
 class Resume extends Component {
   render() {
@@ -19,18 +20,21 @@ class Resume extends Component {
             </div>
 
             <h2 style={{paddingTop: '5px'}}>Luciano Remes</h2>
+            <a href={resume} target='_blank' style={{textDecoration: 'none'}}>
+                <p style={{color: 'rgb(131, 63, 178)'}}>Official PDF Resume</p>
+            </a>
             <h4 style={{color: 'grey'}}>Programmer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Luciano is dedicated to show that he is a quick learner 
-              and proactive about new technologies. He enjoyes working
-              with new web technologies like React an GraphQL, and loves
-              working with data in Python. But overall he loves to learn
-              new better ways of doing things.
+            <p>I am proactive about new technologies and enjoy learning
+              new things. I love working with Go and Python, as well as
+              web technologies and Data Analytics tools. But overall if 
+              there's a better, faster way of doing something, that's my 
+              favorite thing to learn.
             </p>
             <h4 style={{color: 'grey'}}>Contact</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Location</h5>
-            <p>Salt Lake City, UT 84106</p>
+            <p>Salt Lake City, Utah</p>
             <h5>Phone</h5>
             <p>(818) 731-4070</p>
             <h5>Email</h5>
@@ -49,12 +53,12 @@ class Resume extends Component {
                     </ListItem>
                     <ListItem>
                       <ListItemContent style={{color: 'white'}}>
-                        <Icon name='star'></Icon> JavaScript
+                        <Icon name='star'></Icon> Golang
                       </ListItemContent>
                     </ListItem>
                     <ListItem>
                       <ListItemContent style={{color: 'white'}}>
-                        <Icon name='star'></Icon> HTML/CSS
+                        <Icon name='star'></Icon> JavaScript
                       </ListItemContent>
                     </ListItem>
                     <ListItem>
@@ -64,7 +68,7 @@ class Resume extends Component {
                     </ListItem>
                     <ListItem>
                       <ListItemContent style={{color: 'white'}}>
-                        <Icon name='star'></Icon> Java
+                        <Icon name='star'></Icon> C/C++
                       </ListItemContent>
                     </ListItem>
                   </List>
@@ -72,7 +76,7 @@ class Resume extends Component {
                   <List horizontal style={{display: 'flex', color: 'white', flexDirection: 'row'}}>
                     <ListItem>
                       <ListItemContent style={{color: 'white'}}>
-                        React
+                        Java
                       </ListItemContent>
                     </ListItem>
                     <ListItem>
@@ -126,6 +130,15 @@ class Resume extends Component {
             <h2>Experience</h2>
 
               <Experience
+                startDate="May 2019"
+                endDate="Nov. 2019"
+                jobName="Software Engineer Intern"
+                jobDescription="● Developed Data Analytics platform using Python, matplot, pandas, numpy"
+                jobDescription1="● Implemented Atlas Search in complex API, reducing lookup times by 15% average"
+                jobDescription2="● Optimized ffmpeg server for better soundbite manipulation, reducing runtime per bite by 20%" 
+              />
+
+              <Experience
                 startDate="March 2020"
                 endDate="current"
                 jobName="IT & Data Science Intern"
@@ -139,42 +152,26 @@ class Resume extends Component {
                 endDate="March 2020"
                 jobName="IT Operations Analyst"
                 jobDescription="● Developed, QA tested, and deployed Production Printing Software built in vanilla Java, running as a service. Reduced printing related tickets by 31%"
-                jobDescription1="● Automated CI/CD Pipeline using SaltStack, Bash, and Python scripting"
+                jobDescription1="● Automated CI/CD Pipeline using SaltStack, Bash, Python scripting, and optimized Docker enviornments"
                 jobDescription2="● Implemented reactive Salt procedures to automate ticket resolution using reactive failback software on CentOS Production server"              
               />
-              <Experience
-                startDate="May 2019"
-                endDate="Nov. 2019"
-                jobName="IT Specialist"
-                jobDescription="● Solved Printing issues (software side), Docker container issues, resulting in a 23% ticket drop"
-                jobDescription1="● Worked closely with SaltStack to automate deployment and configuration management"
-                jobDescription2="● G Suit administration and managed corporate domain policies" 
-              />
-              {/* <Experience
-                startDate="Sept. 2018"
-                endDate="May 2019"
-                jobName="Technical Analyst/Support"
-                jobDescription="Beta testing, Quality Assurance, and wiki Documentation"
-                jobDescription1="Worked closely with Docker environments to troubleshoot issues"
-                jobDescription2="Worked in a Linux environment to troubleshoot server issues" 
-                jobDescription3=" Built Test cases and scripts to test software" 
-              /> */}
             <hr style={{borderTop: '3px solid #833fb2'}} />
             
             <h2>Education</h2>
               <Education
               startYear={2020}
               endYear={2022}
-              schoolName="University of Utah - candidate Bachelors of Science in Computer Science"
-              schoolDescription="● Starting as a Junior Fall 2020"
-              schoolDescription1="● Lassonde 400 Entrepreneurship Recipient"
+              schoolName="University of Utah - Bachelors of Science in Computer Science"
+              schoolDescription="● Lassonde 400 Entrepreneurship Recipient"
+              schoolDescription1="● Ivory Homes Scholarship"
+              schoolDescription2="● Member of HacktheU"
               />
               <Education
                 startYear={2018}
                 endYear={2020}
                 schoolName="Salt Lake Community College - Associates of Science in Computer Science"
-                schoolDescription="● Emphasis: Web Development & Linux Systems Engineering"
-                schoolDescription1="● Open Source club: coding and ethical hacking | Presidents List: 4.00 GPA "
+                schoolDescription="● Emphasis: Linux Systems Engineering"
+                schoolDescription1="● Open Source club: coding and ethical hacking | Presidents List: 3.8 GPA "
                 schoolDescription2="● National Society of Leadership and Success - Member" 
                 schoolDescription3="● Phi Theta Kappa - Honor Society Member" 
               />
