@@ -130,9 +130,9 @@ class Resume extends Component {
             <h2>Experience</h2>
 
               <Experience
-                startDate="May 2019"
-                endDate="Nov. 2019"
-                jobName="Software Engineer Intern"
+                startDate="June 2020"
+                endDate="present"
+                jobName="Software Engineer Intern - Blerp.com"
                 jobDescription="● Developed Data Analytics platform using Python, matplot, pandas, numpy"
                 jobDescription1="● Implemented Atlas Search in complex API, reducing lookup times by 15% average"
                 jobDescription2="● Optimized ffmpeg server for better soundbite manipulation, reducing runtime per bite by 20%" 
@@ -140,17 +140,17 @@ class Resume extends Component {
 
               <Experience
                 startDate="March 2020"
-                endDate="current"
-                jobName="IT & Data Science Intern"
+                endDate="June 2020"
+                jobName="IT & Data Science Intern - UHealth"
                 jobDescription="● Developed platform agnostic applications on .Net framework with Xamarin"
                 jobDescription1="● Built Data Modeling algorithm for effective patient care with Python"
                 jobDescription2="● IT Project management and implementation for $500,000 budget"              
               />
 
               <Experience
-                startDate="Nov. 2019"
+                startDate="May 2019"
                 endDate="March 2020"
-                jobName="IT Operations Analyst"
+                jobName="IT Operations Analyst - Basecamp Franchising"
                 jobDescription="● Developed, QA tested, and deployed Production Printing Software built in vanilla Java, running as a service. Reduced printing related tickets by 31%"
                 jobDescription1="● Automated CI/CD Pipeline using SaltStack, Bash, Python scripting, and optimized Docker enviornments"
                 jobDescription2="● Implemented reactive Salt procedures to automate ticket resolution using reactive failback software on CentOS Production server"              
