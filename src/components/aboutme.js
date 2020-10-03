@@ -16,8 +16,8 @@ class About extends Component {
               lesson: <i>how to learn</i>. As a life long learner, I booted Ubuntu at 14, 
               taught myself Python when I was 15 and have been creating apps and participating 
               in the Open Source community since then. I love to take part in coding events 
-              like AdventOfCode, hackthebox, and Google Code Jam. I want to build the next Linux, 
-              I love anything that has to do with security and Operating Systems. If it doesn't
+              like AdventOfCode, hackthebox, and Google CodeJam. I want to build the next Linux, 
+              I love anything that has to do with Operating Systems and Security. If it doesn't
               compile down to highly performant native code, I'm probably not too interested in it.
               Unless its Python! but even then, we have PyPy.
               </p>
