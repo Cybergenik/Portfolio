@@ -1,5 +1,5 @@
 import React from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 
 import LandingPage from './landingpage';
 import AboutMe from './aboutme';
@@ -15,6 +15,7 @@ const Main = () => (
     <Route path="/contact" component={Contact} />
     <Route path="/projects" component={Projects} />
     <Route path="/resume" component={Resume} />
+    <Route render={() => <Redirect to="/" />} />
   </Switch>
 )
 
